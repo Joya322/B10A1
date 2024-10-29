@@ -133,3 +133,17 @@
 #wwd2 {
   flex-direction: row-reverse;
 }
+#mi {
+  margin-bottom: 100px;
+}
+#mi .partDescription{
+  padding: 0px 150px;
+}
+#inspirationVideo {
+  padding: 32px;
+  border: 1px solid rgba(13, 19, 33, 0.2);
+  border-radius: 16px;
+}
+#inspirationVideo iframe {
+  border-radius: 16px;
+}
