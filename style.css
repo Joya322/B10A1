@@ -101,7 +101,7 @@
 }
 .wwdText {
   text-align: left;
-  width: 447px;
+  max-width: 447px;
 }
 .wwdText h4 {
   font-size: 24px;
