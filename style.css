@@ -147,3 +147,50 @@
 #inspirationVideo iframe {
   border-radius: 16px;
 }
+
+#mct {
+  margin-bottom: 100px;
+}
+#cardsContainer {
+  display: flex;
+  gap: 24px;
+}
+.card {
+  padding: 30px;
+  width: 284px;
+
+  text-align: left;
+  border-radius: 16px;
+}
+#card1 {
+  background: rgba(255, 76, 30, 0.05);
+}
+#card2 {
+  background: rgba(0, 76, 232, 0.05);
+}
+#card3 {
+  background: rgba(255, 223, 0, 0.05);
+}
+.cardIcon {
+  width: 56px;
+  height: 56px;
+  margin-bottom: 20px;
+}
+.cardTitle {
+  font-size: 24px;
+  font-weight: 800;
+}
+.cardDesc {
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 0.7;
+  margin-top: 8px;
+  margin-bottom: 24px;
+}
+.cardLink {
+  font-size: 16px;
+  font-weight: 700;
+}
+#mct .partDescription{
+  padding: 0px 200px;
+}
