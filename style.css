@@ -26,3 +26,25 @@
   font-weight: 600;
   padding: 10px 20px;
 }
+#banner {
+  background-image: url("./assets/Hero-bg.png");
+  text-align: center;
+  padding: 50px 200px;
+}
+#banner h1 {
+  font-size: 48px;
+  font-weight: 800;
+}
+#banner p {
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 24px;
+  margin-bottom: 32px;
+  opacity: 0.7;
+}
+#banner button {
+  color: rgb(255, 255, 255);
+  border-radius: 8px;
+  background: rgb(13, 19, 33);
+  padding: 20px 20px;
+}
