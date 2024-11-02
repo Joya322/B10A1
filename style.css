@@ -10,9 +10,7 @@
   flex-direction: column;
   align-items: center;
 }
-#header {
-  /* margin-bottom: 75px; */
-}
+
 #nav {
   display: flex;
   justify-content: space-between;
@@ -50,20 +48,20 @@
   margin-bottom: 32px;
   opacity: 0.7;
 }
+#banner a {
+  text-decoration: none;
+}
 #banner button {
   color: rgb(255, 255, 255);
   border-radius: 8px;
   background: rgb(13, 19, 33);
   padding: 20px 20px;
+  cursor: pointer;
 }
 
 /* main start */
 #main {
   margin: 80px 150px;
-  /* display: flex; */
-  /* flex-direction: column; */
-  /* justify-content: center; */
-  /* align-items: center; */
 }
 #wwd {
   padding: 80px;
@@ -124,7 +122,9 @@
   font-size: 20px;
   font-weight: 600;
   padding: 10px 20px;
+  cursor: pointer;
 }
+
 .wwdImg {
   height: 240px;
   width: 240px;
@@ -203,12 +203,11 @@
   justify-content: center;
   align-items: center;
   height: 313px;
-  /* width: 1150px; */
   padding: 64px 48px;
   border: none;
   text-align: center;
   border-radius: 16px;
-  background:url("./assets/handshake.jpg") rgba(0, 0, 0, 0.2);
+  background: url("./assets/handshake.jpg") rgba(0, 0, 0, 0.2);
   background-blend-mode: multiply;
   background-repeat: no-repeat no-repeat;
   background-position: center center;
@@ -225,7 +224,7 @@
   font-weight: 400;
   color: rgb(255, 255, 255);
   margin-top: 16px;
-  margin-bottom: 24px;
+  margin-bottom: 50px;
   opacity: 0.7;
 }
 #input {
@@ -238,7 +237,6 @@
   font-weight: 400;
 }
 #submit {
-  /* width: 500px; */
   padding: 10px 10px;
   border: 1px solid rgba(13, 19, 33, 0.15);
   border-radius: 8px;
@@ -247,23 +245,32 @@
   font-weight: 600;
 }
 /* footer start */
-#footer{
+#footer {
   font-size: 20px;
   font-weight: 600;
-  padding: 0px 150px;
+  padding: 20px 150px;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 20px;
+  align-items: center;
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.03);
+  text-align: center;
 }
-#medias{
+#medias {
   display: flex;
   gap: 24px;
 }
-#medias i{
+#medias a {
   width: 36px;
   height: 36px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
 }
 
-#fb, #link{
+#fb,
+#link {
   color: blue;
 }
